@@ -37,7 +37,7 @@ class OpenCorporates(object):
         'GET versions' call as described in the official documentation.
 
         Reference:
-        http://api.opencorporates.com/documentation/API-Reference
+        https://api.opencorporates.com/documentation/API-Reference
         """
         url = self.API_URL + self.VERSIONS_PATH
         return self._get(url)
@@ -48,7 +48,7 @@ class OpenCorporates(object):
         in the official documentation.
 
         Reference:
-        http://api.opencorporates.com/documentation/API-Reference
+        https://api.opencorporates.com/documentation/API-Reference
         """
         params = {}
         url = self.API_URL + self.COMPANIES_PATH + \
@@ -72,7 +72,7 @@ class OpenCorporates(object):
         'GET companies/search' call as described in the official documentation.
 
         Reference:
-        http://api.opencorporates.com/documentation/API-Reference
+        https://api.opencorporates.com/documentation/API-Reference
         """
         params = {
             'q': q,
