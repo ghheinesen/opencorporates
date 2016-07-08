@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import lib.opencorporates
+import lib.api
 
 
 def main():
-    opencorporates = lib.opencorporates.OpenCorporates()
+    opencorporates = lib.api.OpenCorporates()
     print(opencorporates.get_versions())
     print(opencorporates.get_companies(
         jurisdiction_code='dk',
